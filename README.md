@@ -45,12 +45,12 @@ O projeto estabeleceu o objetivo de desenvolver modelos de Machine Learning para
 
 ## Avaliação dos modelos
 **Validação cruzada**
-  - SVC Otimizado (Stratified K-Fold): Acurácia Média = 0.8660
-  - Random Forest Otimizado (Stratified K-Fold): Acurácia Média = 0.8531
+  - SVC Otimizado (Stratified K-Fold): Acurácia Média = 0.8660 (86.60%)
+  - Random Forest Otimizado (Stratified K-Fold): Acurácia Média = 0.8531 (85.31%)
 
 **Acurácia no Conjunto de Teste**
-  - SVC Otimizado: Acurácia = 0.8912
-  - Random Forest Otimizado: Acurácia = 0.8435
+  - SVC Otimizado: Acurácia = 0.8912 (89.12%)
+  - Random Forest Otimizado: Acurácia = 0.8435 (84.35%)
     
 ## Análise de Erros do Modelo e Impacto para o Negócio
 Na previsão de rotatividade, falsos positivos indicam funcionários que o modelo prevê que sairão, mas permanecem, podendo gerar ações de retenção desnecessárias. Falsos negativos são mais críticos, pois representam funcionários que saem sem que a empresa intervenha, resultando em custos de substituição e perda de conhecimento. Em geral, reduzir falsos negativos é prioridade, mesmo que aumente um pouco os falsos positivos. Métricas como Recall e Precisão ajudam a equilibrar esse impacto.
